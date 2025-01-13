@@ -13,7 +13,7 @@ The **Black Friday Sales Prediction** project aims to predict customer purchases
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Modeling](#modeling)
 - [Evaluation](#evaluation)
-
+- [Prerequisites](#Prerequisites)
 ## Project Description
 
 The **Black Friday Sales Prediction** project is designed to predict the "Purchase" behavior of customers based on various factors such as demographic details, product categories, and user engagement. Machine learning algorithms, including Random Forest Regressor and Linear Regression, are used to build models that can accurately predict purchases across multiple product categories. The goal is to offer actionable insights for retailers to maximize Black Friday sales.
