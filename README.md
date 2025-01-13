@@ -7,7 +7,6 @@ The **Black Friday Sales Prediction** project aims to predict customer purchases
 ## Table of Contents
 
 - [Project Description](#project-description)
-- [Technologies Used](#technologies-used)
 - [Dataset](#dataset)
 - [Features](#features)
 - [Data Preprocessing](#data-preprocessing)
@@ -19,16 +18,6 @@ The **Black Friday Sales Prediction** project aims to predict customer purchases
 
 The **Black Friday Sales Prediction** project is designed to predict the "Purchase" behavior of customers based on various factors such as demographic details, product categories, and user engagement. Machine learning algorithms, including Random Forest Regressor and Linear Regression, are used to build models that can accurately predict purchases across multiple product categories. The goal is to offer actionable insights for retailers to maximize Black Friday sales.
 
-## Technologies Used
-
-This project utilizes the following technologies and libraries:
-
-- **Python 3**: Core programming language for building the predictive model.
-- **pandas**: Data manipulation and analysis.
-- **numpy**: Numerical operations and data handling.
-- **matplotlib** & **seaborn**: Data visualization tools for generating plots and graphs.
-- **scikit-learn**: Machine learning algorithms and utilities.
-- **Jupyter Notebook**: Interactive environment for development and analysis.
 
 ## Dataset
 
@@ -84,8 +73,24 @@ The models were evaluated using the following metrics:
 - **R² Score**: Indicates how well the model fits the data, with a value closer to 1 indicating better performance.
 - **Mean Absolute Error (MAE)**: Evaluates the average absolute error between predicted and actual values.
 
-## Installation
 
-Follow these steps to set up the project in your local environment:
+## Prerequisites
 
+Before running the project, ensure that you have the following Python libraries installed:
 
+- **pandas**: For data manipulation and analysis.
+- **numpy**: For numerical operations and handling arrays.
+- **scikit-learn**: For machine learning algorithms, model evaluation, and data splitting.
+  - `train_test_split`: To split the dataset into training and testing sets.
+  - `RandomForestRegressor`: For building the Random Forest regression model.
+  - `mean_squared_error`: To calculate model performance (Mean Squared Error).
+- **seaborn**: For statistical data visualization and creating informative plots.
+- **matplotlib**: For creating various plots and visualizations.
+
+You can install the required libraries using `pip`:
+
+```bash
+pip install  numpy
+pip install scikit-learn
+pip install seaborn
+pip install  matplotlib
